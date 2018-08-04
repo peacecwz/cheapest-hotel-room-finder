@@ -8,7 +8,7 @@ First of all, you have to clone this project
 
 ```
 git clone https://github.com/peacecwz/cheapest-hotel-room-finder.git
-cd aktuel-listesi
+cd cheapest-hotel-room-finder
 ```
 
 ## Building
