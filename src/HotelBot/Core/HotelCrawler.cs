@@ -36,7 +36,7 @@ namespace HotelBot.Core
                 {
                     var room = new HotelRoomModel()
                     {
-                        Name = roomDiv.SelectSingleNode(".//h3[class='visible-xs']").InnerText.Trim(),
+                        Name = roomDiv.SelectSingleNode(".//h3[@class='visible-xs']").InnerText.Trim(),
                         GuestCount = roomDiv.SelectNodes(".//strong").Count,
                         Price = decimal.Parse(roomDiv.SelectSingleNode(".//small[@class='text-line-through']").InnerText.Trim())
                     };
